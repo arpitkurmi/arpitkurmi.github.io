@@ -1,0 +1,42 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main_css.css">
+    <script src="https://kit.fontawesome.com/e822fcf151.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+
+        <div class="name"><p><i class="fas fa-globe-americas" style="font-size: x-large;"></i> Tichkule & Tichkule</p></div>
+        <div class="display_box">
+            <p id="z"></p>
+        </div>
+        <div class="gitem"><button  id="cb" onclick="display(document.getElementById('z'),this)">C</button></div>
+        <div class="gitem"><button  id="sym4" onclick="display(document.getElementById('z'),this)">/</button></div>
+        <div class="gitem"><button  id="sym3" onclick="display(document.getElementById('z'),this)">*</button></div>
+        <div class="gitem"><button  id="7b" onclick="display(document.getElementById('z'),this)">7</button></div>
+        <div class="gitem"><button  id="8b" onclick="display(document.getElementById('z'),this)">8</button></div>
+        <div class="gitem"><button  id="9b" onclick="display(document.getElementById('z'),this)">9</button></div>
+
+        <div class="gitem"><button  id="4b" onclick="display(document.getElementById('z'),this)">4</button></div>
+        <div class="gitem"><button  id="5b" onclick="display(document.getElementById('z'),this)">5</button></div>
+        <div class="gitem"><button  id="6b" onclick="display(document.getElementById('z'),this)">6</button></div>
+        
+        <div class="gitem"><button  id="1b" onclick="display(document.getElementById('z'),this)">1</button></div>
+        <div class="gitem"><button  id="2b" onclick="display(document.getElementById('z'),this)">2</button></div>
+        <div class="gitem"><button  id="3b" onclick="display(document.getElementById('z'),this)">3</button></div>
+        
+        <div class="gitem"><button  id="dot" onclick="display(document.getElementById('z'),this)">.</button></div>
+        <div class="gitem"><button  id="0b" onclick="display(document.getElementById('z'),this)">0</button></div>
+        <div class="git"><button  id="eqb" onclick="equal(document.getElementById('z'))">=</button></div>
+        <div class="gitem"><button  id="sym1" onclick="display(document.getElementById('z'),this)">+</button></div>
+        <div class="gitem"><button  id="sym2" onclick="display(document.getElementById('z'),this)">-</button></div>
+        
+    </div>
+    <script src="main_js.js"></script>
+</body>
+</html>
