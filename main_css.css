@@ -112,6 +112,18 @@ body
     {
         font-size:medium;
     }
+     div.display_box p
+    {
+        font-size: medium;
+    }
+    div.git button
+    {
+        width: 50%;
+    }
+    div.gitem button
+    {
+        width: 50%;
+    }
 }
 .name
 {
